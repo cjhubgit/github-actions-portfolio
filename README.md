@@ -37,9 +37,10 @@ Explanation:
 •	Steps:
 o	Checkout Code: Retrieves the repository code.
 o	Ping URL: Uses a custom Docker action (docker-ping-url) to ping a specified URL.
-	url: The URL to ping (in this case, an intentionally invalid one).
-	max_trials: The maximum number of retry attempts.
-	delays: The delay (in seconds) between retry attempts.
+
+1. url: The URL to ping (in this case, an intentionally invalid one).
+2. max_trials: The maximum number of retry attempts.
+3. delays: The delay (in seconds) between retry attempts.
 
 
 
