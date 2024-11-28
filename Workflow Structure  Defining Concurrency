@@ -1,18 +1,1 @@
-Workflow Structure
 
-Defining Concurrency
-
-
-
-
-
-
-(https://github.com/cjhubgit/github-actions-portfolio/blob/0c95898288640d98fe15e538b157bcb98860a815/Defining%20concurrency.jpg)
-
-
-
-The concurrency feature is used to limit workflow runs. This prevents multiple instances of the workflow from running simultaneously.	
-
-Explanation:
-•	${{ github.workflow }}: Refers to the name of the workflow file (9-1 Managing Concurrency), ensuring the workflow name is part of the concurrency group.
-•	${{ github.ref }}: Refers to the branch or tag reference (e.g., main). This ensures concurrency is scoped to a specific branch or tag.
