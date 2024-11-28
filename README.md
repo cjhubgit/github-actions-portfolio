@@ -43,4 +43,15 @@ o	Ping URL: Uses a custom Docker action (docker-ping-url) to ping a specified UR
 3. delays: The delay (in seconds) between retry attempts.
 
 
+Testing workflow
+
+1.	Push to the Main Branch
+Commit and push a change to the main branch to trigger the workflow.
+Screenshot Opportunity:
+Take a screenshot of the GitHub Actions page showing the triggered workflow.
+2.	Trigger Another Workflow
+Push another change while the first workflow is running to observe concurrency management.
+
+
+
 
