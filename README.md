@@ -16,7 +16,7 @@ Defining Concurrency
 
 
 
-(https://github.com/user-attachments/assets/82fafb46-75de-4c93-807e-04fe9d6b0e20)
+![ image alt](https://github.com/user-attachments/assets/82fafb46-75de-4c93-807e-04fe9d6b0e20)
 
 The concurrency feature is used to limit workflow runs. This prevents multiple instances of the workflow from running simultaneously.	
 
