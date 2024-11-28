@@ -26,5 +26,20 @@ Explanation:
 
 Workflow Structure
 Jobs section 
-![ image alt]()
+
+The ping job demonstrates how to use concurrency while performing a custom task like pinging a URL using a custom Docker action. 
+
+![ image alt](https://github.com/cjhubgit/github-actions-portfolio/blob/e3b34a358779b2540d7ae9d1c9dc8b0659bb8ccf/workflow-structure.jpg)
+
+Explanation:
+•	runs-on: ubuntu-latest: Specifies the operating system where the job runs.
+•	Concurrency Block: Ensures only one ping job runs at a time for the same workflow and branch.
+•	Steps:
+o	Checkout Code: Retrieves the repository code.
+o	Ping URL: Uses a custom Docker action (docker-ping-url) to ping a specified URL.
+	url: The URL to ping (in this case, an intentionally invalid one).
+	max_trials: The maximum number of retry attempts.
+	delays: The delay (in seconds) between retry attempts.
+
+
 
