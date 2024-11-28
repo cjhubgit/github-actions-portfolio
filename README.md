@@ -23,3 +23,8 @@ The concurrency feature is used to limit workflow runs. This prevents multiple i
 Explanation:
 •	${{ github.workflow }}: Refers to the name of the workflow file (9-1 Managing Concurrency), ensuring the workflow name is part of the concurrency group.
 •	${{ github.ref }}: Refers to the branch or tag reference (e.g., main). This ensures concurrency is scoped to a specific branch or tag.
+
+Workflow Structure
+Jobs section 
+![ image alt]()
+
