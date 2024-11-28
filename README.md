@@ -52,6 +52,22 @@ Take a screenshot of the GitHub Actions page showing the triggered workflow.
 2.	Trigger Another Workflow
 Push another change while the first workflow is running to observe concurrency management.
 
+![ image alt]( https://github.com/cjhubgit/github-actions-portfolio/blob/9f86262dc1c32b4cd771235ce4aa15721eeeb069/testing-workflow.jpg)
+
+Testing the Workflow
+In this example, I triggered the workflow 19-1 Managing Concurrency multiple times manually for the main branch. GitHub's concurrency feature took over and ensured that only one workflow runs at a time, while the others were either cancelled or queued. 
+
+Here's what’s happening:
+1.	Cancelled Workflows:
+o	Runs #4, #5, and #6 were cancelled automatically because a newer workflow (#7) was triggered. GitHub doesn’t let multiple workflows from the same concurrency group run simultaneously.
+2.	Running Workflow:
+o	Run #7 is the most recent active workflow, so it’s currently running. GitHub allows this workflow to proceed because it’s the latest one in the group.
+3.	Pending Workflow:
+o	Run #8 is in a "Pending" state, waiting for Run #7 to finish before it can start. This ensures workflows don’t overlap and cause conflicts.
+
+Why This Matters:
+This screenshot is a great example of GitHub's concurrency feature in action. It shows how GitHub prevents redundant runs and ensures only the most relevant workflow continues, saving time and resources
+
 
 
 
