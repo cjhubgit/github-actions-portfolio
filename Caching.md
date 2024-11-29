@@ -1,8 +1,8 @@
 ## Project Name: 13 - Using Caching
 <span style="color:black">Project Name: 13 - Using Caching</span>
 
-##Overview
-<span style="font-size:34px">Overview</span>
+
+<span style="font-size:48px">Overview</span>
 
 This project demonstrates the use of caching in GitHub Actions to optimize CI/CD workflows for a React application. The workflow:
 •	Calculates a unique cache key based on the package-lock.json file.
