@@ -19,4 +19,5 @@ This project demonstrates the use of caching in GitHub Actions to optimize CI/CD
 1.	Trigger Events
 o	The workflow starts using workflow_dispatch.
 o	Takes user inputs (use-cache and node-version) for dynamic configuration.
+
 ![image alt](caching-trigger-workflow.png)
