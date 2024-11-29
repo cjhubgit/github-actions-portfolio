@@ -9,5 +9,4 @@ This project demonstrates the use of caching in GitHub Actions to optimize CI/CD
 •	Conditionally downloads cached dependencies using the actions/cache action.
 •	Installs dependencies only when the cache is not available.
 •	Builds, tests, and lints the project in separate jobs to showcase modular workflow design.
-
-![ image alt ](caching-trigger workflow.png)
+![Caching Trigger Workflow](caching-trigger-workflow.png)
