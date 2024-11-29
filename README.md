@@ -6,17 +6,17 @@ Workflow Structure
 1. Trigger Event
 The workflow is triggered manually using workflow_dispatch. This allows the workflow to be started only when you manually trigger it.
 
-![ image alt ](https://github.com/cjhubgit/github-actions-portfolio/blob/411b38f0307c692f2854a9cf72dbf67ed5fc6979/concurrency.jpg)
+![ image alt ](concurrency.jpg)
 
 
-Workflow Structure
+Workflow Structuresss
 Defining Concurrency
 
 
 
 
 
-![ image alt](https://github.com/cjhubgit/github-actions-portfolio/blob/456186212325182dd71894098a28f5e140cefe14/Defining%20concurrency.jpg)
+![ image alt](Defining%20concurrency.jpg)
 
 The concurrency feature is used to limit workflow runs. This prevents multiple instances of the workflow from running simultaneously.	
 
@@ -29,7 +29,7 @@ Jobs section
 
 The ping job demonstrates how to use concurrency while performing a custom task like pinging a URL using a custom Docker action. 
 
-![ image alt](https://github.com/cjhubgit/github-actions-portfolio/blob/e3b34a358779b2540d7ae9d1c9dc8b0659bb8ccf/workflow-structure.jpg)
+![ image alt](workflow-structure.jpg)
 
 Explanation:
 •	runs-on: ubuntu-latest: Specifies the operating system where the job runs.
@@ -52,7 +52,7 @@ Take a screenshot of the GitHub Actions page showing the triggered workflow.
 2.	Trigger Another Workflow
 Push another change while the first workflow is running to observe concurrency management.
 
-![ image alt]( https://github.com/cjhubgit/github-actions-portfolio/blob/9f86262dc1c32b4cd771235ce4aa15721eeeb069/testing-workflow.jpg)
+![ image alt]( testing-workflow.jpg)
 
 Testing the Workflow
 In this example, I triggered the workflow 19-1 Managing Concurrency multiple times manually for the main branch. GitHub's concurrency feature took over and ensured that only one workflow runs at a time, while the others were either cancelled or queued. 
