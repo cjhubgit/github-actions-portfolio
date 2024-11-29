@@ -9,7 +9,7 @@ The workflow is triggered manually using workflow_dispatch. This allows the work
 ![ image alt ](concurrency.jpg)
 
 
-Workflow Structuresss
+Workflow Structure
 Defining Concurrency
 
 
