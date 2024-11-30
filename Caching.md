@@ -46,7 +46,9 @@ Responsibilities:
 o	Depends on the install-deps job.
 o	Reuses the cached dependencies.
 o	Builds the project and runs linting
+
 ![image alt](caching-build-job.png)
+
 
 This job handles compiling and preparing the application. It relies on the install-deps job to retrieve cached dependencies. Here are the steps:
 
