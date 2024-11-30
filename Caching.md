@@ -8,7 +8,9 @@ This project demonstrates the use of caching in GitHub Actions to optimize CI/CD
 - Installs dependencies only when the cache is not available.
 - Builds, tests, and lints the project in separate jobs to showcase modular workflow design.
 
-### Screenshot: Caching Trigger Workflow
+### Screenshot: 
+
+Caching Trigger Workflow
 ![image alt](caching-yamal-code.png)
 
 
