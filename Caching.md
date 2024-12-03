@@ -8,7 +8,9 @@ This project demonstrates the use of caching in GitHub Actions to optimize CI/CD
 - Installs dependencies only when the cache is not available.
 - Builds, tests, and lints the project in separate jobs to showcase modular workflow design.
 
-### Screenshot: Caching Trigger Workflow
+### Screenshot: 
+
+Caching Trigger Workflow
 ![image alt](caching-yamal-code.png)
 
 
@@ -16,7 +18,7 @@ This project demonstrates the use of caching in GitHub Actions to optimize CI/CD
 
 <u>**Workflow Breakdown**</u>  
 
-1.	Trigger Events
+1. Trigger Events
 o	The workflow starts using workflow_dispatch.
 o	Takes user inputs (use-cache and node-version) for dynamic configuration.
 
@@ -46,7 +48,9 @@ Responsibilities:
 o	Depends on the install-deps job.
 o	Reuses the cached dependencies.
 o	Builds the project and runs linting
+
 ![image alt](caching-build-job.png)
+
 
 This job handles compiling and preparing the application. It relies on the install-deps job to retrieve cached dependencies. Here are the steps:
 
@@ -60,7 +64,8 @@ Responsibilities:
 o	Similar to build, depends on install-deps for caching.
 o	Runs build, lint, and test commands.
 
-![image alt](caching-lin-test.png) 
+<img src="caching-lin-test.png" alt="Matrix Overview" width="350" height="auto"> 
+
 
 This screenshot shows the "Building" step of the lint-test job. The following happens:
 
@@ -79,7 +84,7 @@ The application compiles successfully, producing an optimized production build. 
 o	Shows "Cache restored from..." message in the install-deps job.
 o	Workflow execution time is reduced.
 
-![image alt](cache-hit-workflow.png) 
+<img src="cache-hit-workflow.png" alt="Matrix Overview" width="340" height="auto">
 
 In this screenshot, the "Download cached dependencies" step of the install-deps job is being executed. Here’s what’s happening:
 
