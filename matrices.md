@@ -154,12 +154,6 @@ The matrix includes multiple operating systems
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Styled Text</title>
-    <style>
-        .menlo-style {
-            font-family: 'Menlo', monospace;
-            font-size: 16px;
-            color: #4CAF50; /* Optional: Green color */
         }
     </style>
 </head>
