@@ -34,7 +34,7 @@ This setup allows for flexible, efficient, and comprehensive testing across vari
         .menlo {
             font-family: 'Menlo', monospace;
             font-size: 12px;
-            color: #00700ACC; /* Optional: Blue color */
+            color: #00700ACC; /* Optional: Black color */
         }
     </style>
 </head>
