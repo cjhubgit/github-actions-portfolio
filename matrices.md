@@ -29,7 +29,7 @@ This setup allows for flexible, efficient, and comprehensive testing across vari
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=12.0">
-    <title>Working with Matrices</title>
+
 </head>
 <body>
     <h5>15 - Working with Matrices</h1>
