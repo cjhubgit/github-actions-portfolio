@@ -30,13 +30,6 @@ This setup allows for flexible, efficient, and comprehensive testing across vari
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=12.0">
     <title>Working with Matrices</title>
-    <style>
-        .menlo {
-            font-family: 'Menlo', monospace;
-            font-size: 12px;
-            color: #00700ACC; /* Optional: Black color */
-        }
-    </style>
 </head>
 <body>
     <h5>15 - Working with Matrices</h1>
