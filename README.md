@@ -1,4 +1,4 @@
-
+Learning is always.. 
 If you’re wondering what this portfolio is all about, it’s my way of showcasing my skills and progress on GitHub. Yes, I’m new to the platform, 
 and understanding how it all works has been a steep learning curve. But there’s always room to grow, learn, and explore new things.
 
